@@ -102,7 +102,7 @@ public class MainActivity extends AppCompatActivity {
             case R.id.menu_share:
                 Intent shareIntent = new Intent(Intent.ACTION_SEND);
                 shareIntent.setType("text/plain");
-                String app_url = "https://github.com/GauthamAsir/WhatsApp_Status_Saver/releases";
+                String app_url = "https://github.com/HimanshuGit0910/StatusDownload/blob/main/app/app-release.apk";
                 shareIntent.putExtra(Intent.EXTRA_TEXT,
                         "Hey check out my app at \n\n" + app_url);
                 shareIntent.putExtra(Intent.EXTRA_SUBJECT, "WhatsApp Status Saver");
